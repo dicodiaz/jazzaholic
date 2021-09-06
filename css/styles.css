@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@font-face {
+  font-family: Cocogoose;
+  src: url("../fonts/Cocogoose Pro Semilight-trial.ttf");
+}
+@font-face {
+  font-family: Cocogoose;
+  src: url("../fonts/Cocogoose Pro-trial.ttf");
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: inherit;
+}
+
+.title {
+  font-family: Cocogoose;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
