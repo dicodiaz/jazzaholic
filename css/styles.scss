@@ -31,6 +31,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  color: $primary-color;
+}
+
 ul {
   list-style: none;
 }
@@ -44,7 +48,146 @@ a:visited {
   color: inherit;
 }
 
-.title {
+// Header
+
+.bg-container {
+  background: rgba($tertiary-color, 0.8);
+}
+
+.bg-container::after {
+  content: '';
+  background: url(../img/bg-primary.png) top no-repeat;
+  background-size: 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.logo {
+  height: 50px;
+}
+
+.navbar-toggler {
+  order: -1;
+}
+
+.navbar-nav {
+  font-family: Lato;
+}
+
+// Heading
+
+.heading-title {
   font-family: Cocogoose;
   font-weight: bold;
+  color: $secondary-color;
+  font-size: 40px;
+}
+
+.heading-title > span {
+  font-size: 30px;
+}
+
+.heading-p {
+  font-family: Lato;
+}
+
+.heading-date {
+  font-family: Cocogoose;
+  font-weight: bold;
+}
+
+.heading-place {
+  font-family: Lato;
+}
+
+// Program
+
+.program {
+  background-color: rgb(40, 43, 52);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.red-line {
+  width: 30px;
+  height: 1px;
+  background-color: $secondary-color;
+}
+
+.program-container {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.program-icon {
+  width: 50px;
+}
+
+.program-subtitle {
+  font-family: Cocogoose;
+  font-weight: bold;
+  color: $secondary-color;
+  flex-basis: 50%;
+}
+
+.program-p {
+  font-family: Lato;
+}
+
+.btn-custom {
+  font-family: Lato;
+  background-color: $secondary-color;
+  color: white;
+}
+
+// Speakers
+
+.speaker-img {
+  background: white url('../img/icon-chess-board.png') top left no-repeat;
+  flex-basis: 40%;
+}
+
+.speaker-img > img {
+  width: 100%;
+}
+
+.speaker-info {
+  flex-basis: 60%;
+}
+
+.speaker-title {
+  font-family: Cocogoose;
+  font-weight: bold;
+}
+
+.speaker-subtitle {
+  font-family: Lato;
+  font-style: italic;
+  color: $secondary-color;
+}
+
+.gray-line {
+  width: 30px;
+  height: 1px;
+  background-color: $tertiary-color;
+}
+
+.speaker-p {
+  font-family: Lato;
+  font-size: 14px;
+}
+
+// Footer
+
+.footer {
+  text-align: center;
 }
