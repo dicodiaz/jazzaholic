@@ -1,13 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 @font-face {
   font-family: Cocogoose;
-  src: url("../fonts/Cocogoose Pro Semilight-trial.ttf");
+  src: url('../fonts/Cocogoose Pro Semilight-trial.ttf');
 }
+
 @font-face {
   font-family: Cocogoose;
-  src: url("../fonts/Cocogoose Pro-trial.ttf");
+  src: url('../fonts/Cocogoose Pro-trial.ttf');
   font-weight: bold;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -40,7 +43,7 @@ a:visited {
 }
 
 .bg-container::after {
-  content: "";
+  content: '';
   background: url(../img/bg-primary.png) top no-repeat;
   background-size: 100%;
   opacity: 0.5;
@@ -61,11 +64,11 @@ a:visited {
 }
 
 .navbar-nav {
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
 }
 
 .heading-title {
-  font-family: Cocogoose;
+  font-family: Cocogoose, Arial, sans-serif;
   font-weight: bold;
   color: #ec5242;
   font-size: 40px;
@@ -76,16 +79,16 @@ a:visited {
 }
 
 .heading-p {
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
 }
 
 .heading-date {
-  font-family: Cocogoose;
+  font-family: Cocogoose, Arial, sans-serif;
   font-weight: bold;
 }
 
 .heading-place {
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
 }
 
 .program {
@@ -114,24 +117,24 @@ a:visited {
 }
 
 .program-subtitle {
-  font-family: Cocogoose;
+  font-family: Cocogoose, Arial, sans-serif;
   font-weight: bold;
   color: #ec5242;
   flex-basis: 50%;
 }
 
 .program-p {
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
 }
 
 .btn-custom {
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
   background-color: #ec5242;
   color: white;
 }
 
 .speaker-img {
-  background: white url("../img/icon-chess-board.png") top left no-repeat;
+  background: white url('../img/icon-chess-board.png') top left no-repeat;
   flex-basis: 40%;
 }
 
@@ -144,12 +147,12 @@ a:visited {
 }
 
 .speaker-title {
-  font-family: Cocogoose;
+  font-family: Cocogoose, Arial, sans-serif;
   font-weight: bold;
 }
 
 .speaker-subtitle {
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
   font-style: italic;
   color: #ec5242;
 }
@@ -161,7 +164,7 @@ a:visited {
 }
 
 .speaker-p {
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -178,7 +181,7 @@ a:visited {
 }
 
 .heading-about-title {
-  font-family: Cocogoose;
+  font-family: Cocogoose, Arial, sans-serif;
   font-weight: bold;
   color: #ec5242;
   font-size: 40px;
@@ -189,16 +192,16 @@ a:visited {
 }
 
 .heading-about-p {
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
 }
 
 .heading-about-date {
-  font-family: Cocogoose;
+  font-family: Cocogoose, Arial, sans-serif;
   font-weight: bold;
 }
 
 .heading-about-place {
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
 }
 
 .heading-about-email {
