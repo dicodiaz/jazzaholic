@@ -169,4 +169,75 @@ a:visited {
   text-align: center;
 }
 
+.bg-container-about {
+  background: rgba(211, 211, 211, 0.8);
+}
+
+.heading-about {
+  text-align: center;
+}
+
+.heading-about-title {
+  font-family: Cocogoose;
+  font-weight: bold;
+  color: #ec5242;
+  font-size: 40px;
+}
+
+.heading-about-title > span {
+  font-size: 30px;
+}
+
+.heading-about-p {
+  font-family: Lato;
+}
+
+.heading-about-date {
+  font-family: Cocogoose;
+  font-weight: bold;
+}
+
+.heading-about-place {
+  font-family: Lato;
+}
+
+.heading-about-email {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.about-past-event {
+  background: rgba(255, 0, 0, 0.9);
+  position: relative;
+}
+
+.about-past-event > img {
+  opacity: 0.5;
+  width: 100%;
+}
+
+.about-past-event > h2,
+.about-past-event > h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-partners {
+  background-color: #272a31;
+  color: white;
+}
+
+.about-partners-icon {
+  display: flex;
+  align-items: center;
+  flex-basis: 25%;
+  margin: 10px;
+}
+
+.about-partners-icon > img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */

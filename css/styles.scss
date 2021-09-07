@@ -191,3 +191,82 @@ a:visited {
 .footer {
   text-align: center;
 }
+
+// About page
+
+// Heading
+
+.bg-container-about {
+  background: rgba($tertiary-color, 0.8);
+}
+
+.heading-about {
+  text-align: center;
+}
+
+.heading-about-title {
+  font-family: Cocogoose;
+  font-weight: bold;
+  color: $secondary-color;
+  font-size: 40px;
+}
+
+.heading-about-title > span {
+  font-size: 30px;
+}
+
+.heading-about-p {
+  font-family: Lato;
+}
+
+.heading-about-date {
+  font-family: Cocogoose;
+  font-weight: bold;
+}
+
+.heading-about-place {
+  font-family: Lato;
+}
+
+.heading-about-email {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+// Past
+
+.about-past-event {
+  background: rgba(255, 0, 0, 0.9);
+  position: relative;
+}
+
+.about-past-event > img {
+  opacity: 0.5;
+  width: 100%;
+}
+
+.about-past-event > h2,
+.about-past-event > h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// Partners
+
+.about-partners {
+  background-color: $primary-color;
+  color: white;
+}
+
+.about-partners-icon {
+  display: flex;
+  align-items: center;
+  flex-basis: 25%;
+  margin: 10px;
+}
+
+.about-partners-icon > img {
+  width: 100%;
+}
