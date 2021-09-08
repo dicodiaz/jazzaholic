@@ -9,69 +9,83 @@
     <title>Jazzaholic - Home</title>
   </head>
   <body class="text-lato text-custom1">
-    <header class="header position-absolute top-0 start-0 end-0">
-      <nav class="navbar navbar-expand-md navbar-light">
+    <header class="header fixed-top">
+      <nav class="row justify-content-end align-content-center bg-custom1 small d-none d-md-flex py-1 px-3 gx-3">
+        <a href="#" class="hover w-auto"><img src="img/icon-facebook.png" alt="icon-facebook" /></a>
+        <a href="#" class="hover w-auto"><img src="img/icon-twitter.png" alt="icon-twitter" /></a>
+        <a href="#" class="hover w-auto text-white text-decoration-none">English</a>
+        <a href="#" class="hover w-auto text-white text-decoration-none">My Page</a>
+        <a href="#" class="hover w-auto text-white text-decoration-none">Logout</a>
+      </nav>
+      <nav class="navbar navbar-expand-md navbar-light bg-custom3">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img class="header-logo" src="img/logo_jazzaholic-transparent.png" alt="logo_jazzaholic" /></a>
           <button class="navbar-toggler border-0 order-first" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
-            <div class="navbar-nav bg-custom3">
-              <a class="nav-link" href="about.html">About</a>
-              <a class="nav-link" href="#">Program</a>
-              <a class="nav-link" href="#">Join</a>
-              <a class="nav-link" href="#">Sponsor</a>
-              <a class="nav-link" href="#">News</a>
+            <div class="navbar-nav">
+              <a class="nav-link px-3" href="about.html">About</a>
+              <a class="nav-link px-3" href="#">Program</a>
+              <a class="nav-link px-3" href="#">Join</a>
+              <a class="nav-link px-3" href="#">Sponsor</a>
+              <a class="nav-link px-3" href="#">News</a>
+              <a class="nav-link btn text-custom2 border-custom2 border-3 mx-3 d-none d-md-block" href="#">Jazzaholic Campaign</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <section id="home-heading" class="heading bg-custom3 py-5">
-        <div class="container-md py-5">
-          <div class="row px-3">
-            <h1 class="text-coco text-custom2 fw-bold display-4 col-md-10">CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
-            <h2 class="order-first text-coco text-custom2 col-md-10">"Hello! Sharing world"</h2>
-            <p class="p-3 border border-white border-3 col-md-8 bg-custom3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, fuga. Distinctio in reiciendis odio mollitia animi molestias maiores ab commodi, nihil voluptatem illo labore molestiae id. Id dolores fugit odio?</p>
-            <p class="text-coco fw-bold fs-3 mb-0 col-md-8">2015.10.10(THU) ~ 16(FRI)</p>
-            <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      <section id="home-heading" class="bg-image bg-heading">
+        <div class="mask py-5 bg-custom7">
+          <div class="container-md">
+            <div class="row justify-content-center py-5">
+              <div class="col-11 pt-5">
+                <div class="row">
+                  <h1 class="text-coco text-custom2 fw-bold display-1 col-md-10">JAZZAHOLIC FESTIVAL 2021</h1>
+                  <h2 class="order-first fs-1 text-custom2 col-md-10">"Hello! Jazz world"</h2>
+                  <p class="p-3 border border-white border-3 col-md-8 bg-custom3">What better place to unwind and let yourself go to the sound of beautiful music than at a jazz music festival? The exciting lineup, the crowd, the atmosphere, it’s going to be an exhilarating experience.</p>
+                  <p class="text-coco fw-bold fs-3 mb-0 col-md-8">2021.10.22(FRI) ~ 24(SUN)</p>
+                  <p class="">@ Movistar Arena Stadium, Bogotá, Colombia</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section id="program" class="bg-custom1 text-white py-5">
+      <section id="customs" class="bg-custom1 text-white py-5">
         <div class="container-md">
-          <h2 class="text-center">Main Program</h2>
-          <div class="orange-line mt-3 mb-md-5 mx-auto"></div>
+          <h2 class="text-center">Customs</h2>
+          <div class="orange-line mt-3 mb-5 mx-auto"></div>
           <div class="row justify-content-center">
             <div class="d-flex align-items-center bg-custom4 p-2 my-2 col-11 col-md flex-md-column text-md-center mx-md-1 my-md-0">
-              <img class="program-icon m-4 m-md-3" src="img/icon-lecture.png" alt="icon-lecture" />
-              <h3 class="text-coco text-custom2 fw-bold mb-0 mb-md-2">Lecture</h3>
+              <img class="program-icon m-4 m-md-3" src="img/icon-double-door-opened.png" alt="icon-double-door-opened" />
+              <h3 class="text-coco text-custom2 fw-bold mb-0 mb-md-2">Early open</h3>
               <p class="mb-0 px-3 px-md-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum omnis in officiis ab consectetur!</p>
             </div>
             <div class="d-flex align-items-center bg-custom4 p-2 my-2 col-11 col-md flex-md-column text-md-center mx-md-1 my-md-0">
-              <img class="program-icon m-4 m-md-3" src="img/icon-painting.png" alt="icon-painting" />
-              <h3 class="text-coco text-custom2 fw-bold mb-0 mb-md-2">CC Exhibition</h3>
+              <img class="program-icon m-4 m-md-3" src="img/icon-fast-food.png" alt="icon-fast-food" />
+              <h3 class="text-coco text-custom2 fw-bold mb-0 mb-md-2">Food</h3>
               <p class="mb-0 px-3 px-md-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum omnis in officiis ab consectetur!</p>
             </div>
             <div class="d-flex align-items-center bg-custom4 p-2 my-2 col-11 col-md flex-md-column text-md-center mx-md-1 my-md-0">
-              <img class="program-icon m-4 m-md-3" src="img/icon-message.png" alt="icon-message" />
-              <h3 class="text-coco text-custom2 fw-bold mb-0 mb-md-2">Forum</h3>
+              <img class="program-icon m-4 m-md-3" src="img/icon-lifestyle.png" alt="icon-lifestyle" />
+              <h3 class="text-coco text-custom2 fw-bold mb-0 mb-md-2">Side activites</h3>
               <p class="mb-0 px-3 px-md-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum omnis in officiis ab consectetur!</p>
             </div>
             <div class="d-flex align-items-center bg-custom4 p-2 my-2 col-11 col-md flex-md-column text-md-center mx-md-1 my-md-0">
-              <img class="program-icon m-4 m-md-3" src="img/icon-board.png" alt="icon-board" />
-              <h3 class="text-coco text-custom2 fw-bold mb-0 mb-md-2">Workshop</h3>
+              <img class="program-icon m-4 m-md-3" src="img/icon-frontal-taxi-cab.png" alt="icon-frontal-taxi-cab" />
+              <h3 class="text-coco text-custom2 fw-bold mb-0 mb-md-2">Transport</h3>
               <p class="mb-0 px-3 px-md-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum omnis in officiis ab consectetur!</p>
             </div>
             <div class="d-flex align-items-center bg-custom4 p-2 my-2 col-11 col-md flex-md-column text-md-center mx-md-1 my-md-0">
-              <img class="program-icon m-4 m-md-3" src="img/icon-user.png" alt="icon-user" />
-              <h3 class="text-coco text-custom2 fw-bold mb-0 mb-md-2">CC Ignite</h3>
+              <img class="program-icon m-4 m-md-3" src="img/icon-live-streaming.png" alt="icon-live-streaming" />
+              <h3 class="text-coco text-custom2 fw-bold mb-0 mb-md-2">Live</h3>
               <p class="mb-0 px-3 px-md-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum omnis in officiis ab consectetur!</p>
             </div>
             <div class="w-100"></div>
-            <button type="button" class="btn btn-custom col-9 py-4 mt-4 d-md-none">Join CC Global Summit 2015</button>
+            <button type="button" class="btn btn-custom col-9 py-4 mt-4 d-md-none">Buy tickets for Jazzaholic Festival 2021</button>
             <a href="#" class="w-auto d-none d-md-block mt-md-5 mb-md-3 text-white">SEE THE WHOLE PROGRAM</a>
           </div>
         </div>

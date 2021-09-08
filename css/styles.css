@@ -9,7 +9,7 @@
 }
 
 .text-custom2 {
-  color: #ec5242;
+  color: #ec5242 !important;
 }
 
 .text-custom3 {
@@ -37,7 +37,11 @@
 }
 
 .bg-custom6 {
-  background: rgba(255, 0, 0, 0.9);
+  background: rgba(236, 82, 66, 1);
+}
+
+.bg-custom7 {
+  background: rgba(211, 211, 211, 0.9);
 }
 
 .text-lato {
@@ -61,6 +65,18 @@
   .text-md-white {
     color: white;
   }
+}
+
+.border-custom1 {
+  border-color: #272a31;
+}
+
+.border-custom2 {
+  border-color: #ec5242;
+}
+
+.border-custom3 {
+  border-color: #d3d3d3;
 }
 
 /* Utilities */
@@ -95,4 +111,19 @@
 
 .footer-logo {
   max-width: 200px;
+}
+
+.hover {
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.hover:hover {
+  opacity: 1;
+}
+
+.bg-heading {
+  background-image: url(../img/bg-heading.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
