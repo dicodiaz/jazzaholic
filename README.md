@@ -44,22 +44,6 @@ Any modern web browser will do.
 
 Follow the steps described before.
 
-### Install
-
-N/A
-
-### Usage
-
-N/A
-
-### Run tests
-
-N/A
-
-### Deployment
-
-N/A
-
 ## Authors
 
 👤 **Dico Diaz Dussan**
