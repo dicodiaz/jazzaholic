@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 - Clone repo into your machine. For this, I recommend the following steps:
   - Open a terminal of your choice (e.g. VS Code integrated terminal)
   - Select the destination folder (On windows, run cd "_Destination folder_")
-  - Run git clone https://github.com/dicodiaz/Portfolio
+  - Run git clone https://github.com/dicodiaz/ConcertPage_Capstone-M1
 - Open the destination folder in your preferred file explorer
 - Open folder "ConcertPage_Capstone-M1"
 - Open index.html
