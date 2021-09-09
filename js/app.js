@@ -83,7 +83,7 @@ artists.forEach((artist, i) => {
 // More button
 const moreBtn = document.createElement('div');
 moreBtn.id = 'more-btn';
-moreBtn.classList.add('btn', 'border', 'border-secondary', 'col-11', 'py-3', 'fs-5');
+moreBtn.classList.add('btn', 'border', 'border-secondary', 'col-11', 'py-3', 'fs-5', 'd-md-none');
 moreBtn.innerText = 'MORE';
 const btnImg = document.createElement('img');
 btnImg.src = 'img/arrow-down.png';
