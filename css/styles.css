@@ -1,0 +1,133 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Custom */
+
+.text-custom1 {
+  color: #272a31;
+}
+
+.text-custom2 {
+  color: #ec5242 !important;
+}
+
+.text-custom3 {
+  color: #d3d3d3;
+}
+
+.bg-custom1 {
+  background-color: #272a31;
+}
+
+.bg-custom2 {
+  background-color: #ec5242;
+}
+
+.bg-custom3 {
+  background-color: #d3d3d3;
+}
+
+.bg-custom4 {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.bg-custom5 {
+  background: white url('../img/icon-chess-board.png') top left no-repeat;
+}
+
+.bg-custom6 {
+  background: rgba(236, 82, 66, 1);
+}
+
+.bg-custom7 {
+  background: rgba(211, 211, 211, 0.9);
+}
+
+.text-lato {
+  font-family: Lato, Arial, sans-serif;
+}
+
+.text-coco {
+  font-family: Cocogoose, Arial, sans-serif;
+}
+
+.btn-custom {
+  background-color: #ec5242;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-md-custom1 {
+    background-color: #272a31;
+  }
+
+  .bg-md-custom3 {
+    background-color: #d3d3d3;
+  }
+
+  .text-md-white {
+    color: white;
+  }
+}
+
+.border-custom1 {
+  border-color: #272a31;
+}
+
+.border-custom2 {
+  border-color: #ec5242;
+}
+
+.border-custom3 {
+  border-color: #d3d3d3;
+}
+
+/* Utilities */
+
+.header-logo {
+  height: 50px;
+}
+
+.orange-line {
+  width: 50px;
+  height: 1px;
+  background-color: #ec5242;
+}
+
+.gray-line {
+  width: 25px;
+  height: 1px;
+  background-color: #d3d3d3;
+}
+
+.program-icon {
+  height: 50px;
+}
+
+.partner-logo {
+  width: 120px;
+}
+
+.logo-section-logo {
+  max-width: 350px;
+}
+
+.footer-logo {
+  max-width: 200px;
+}
+
+.hover {
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.hover:hover {
+  opacity: 1;
+}
+
+.bg-heading {
+  background-image: url(../img/bg-heading.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

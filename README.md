@@ -1,59 +1,56 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Concert Page - Module 1 Capstone Project
 
-> One paragraph statement about the project.
+This project consists in building an event page based on an [online website for a conference](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). I chose to build it about a fictional Jazz Festival: Jazzaholic, which happens every year in Bogotá, Colombia. The pictures are taken from the internet and the text is made up, so they don't represent a real event in any way.
+
+## Mobile
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+## Desktop
+
+![screenshot](./app_screenshot_desktop.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5
+- CSS3
+- Bootstrap
+- Visual Studio Code
+- Git & Github
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](http://dicodiaz.me/ConcertPage_Capstone-M1/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+
+- Clone repo into your machine. For this, I recommend the following steps:
+  - Open a terminal of your choice (e.g. VS Code integrated terminal)
+  - Select the destination folder (On windows, run cd "_Destination folder_")
+  - Run git clone https://github.com/dicodiaz/ConcertPage_Capstone-M1
+- Open the destination folder in your preferred file explorer
+- Open folder "ConcertPage_Capstone-M1"
+- Open index.html
 
 ### Prerequisites
 
+Any modern web browser will do.
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Follow the steps described before.
 
 ## Authors
 
-👤 **Author1**
+👤 **Dico Diaz Dussan**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@dicodiaz](https://github.com/dicodiaz)
+- Twitter: [@DicoDiaz1](https://twitter.com/DicoDiaz1)
+- LinkedIn: [Dico Diaz Dussan](https://www.linkedin.com/in/dico-diaz-dussan-476106a6/)
 
 ## 🤝 Contributing
 
@@ -69,7 +66,9 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- Microverse program
+- My code reviewers
+- Design idea by [Cindy Shin | GUI & Graphic Designer](https://www.behance.net/adagio07)
 
 ## 📝 License
 
