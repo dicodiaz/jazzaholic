@@ -1,6 +1,6 @@
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 /* Custom */
 
@@ -33,7 +33,7 @@
 }
 
 .bg-custom5 {
-  background: white url('../img/icon-chess-board.png') top left no-repeat;
+  background: white url("../img/icon-chess-board.png") top left no-repeat;
 }
 
 .bg-custom6 {
@@ -90,7 +90,6 @@
 }
 
 .orange-line {
-  width: 50px;
   height: 1px;
   background-color: #ec5242;
 }
