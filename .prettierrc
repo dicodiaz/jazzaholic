@@ -1,0 +1,14 @@
+{
+  "printWidth": 300,
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "printWidth": 100,
+        "singleQuote": true,
+        "trailingComma": "all"
+      }
+    }
+  ]
+}
