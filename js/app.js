@@ -72,7 +72,7 @@ artists.forEach((artist, i) => {
   row.appendChild(imgContainer);
   row.appendChild(info);
   const block = document.createElement('div');
-  block.classList.add('col-11', 'col-md-6');
+  block.classList.add('col-md-6');
   if (i > 1) block.classList.add('d-none', 'd-md-block');
   block.appendChild(row);
 
