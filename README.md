@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Concert Page - Module 1 Capstone Project
+# Jazzaholic
 
 This project consists in building an event page based on an [online website for a conference](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). I chose to build it about a fictional Jazz Festival: Jazzaholic, which happens every year in Bogotá, Colombia. The pictures are taken from the internet and the text is made up, so they don't represent a real event in any way.
 
